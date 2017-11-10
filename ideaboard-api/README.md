@@ -1,24 +1,19 @@
-# README
+# Idea Board API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Backend API built using Rails 5.1.3
 
-Things you may want to cover:
+### Setup
 
-* Ruby version
+Make sure Rails is installed
 
-* System dependencies
+```
+gem install rails -v 5.1.3
+```
 
-* Configuration
+Navigate to `/ideaboard-api` and run:
 
-* Database creation
+    rails db:migrate
+    rails db:seed
+    rails s -p 3001
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+CRUD routes for Ideas can be found at `localhost:3001/api/v1/ideas.json`
