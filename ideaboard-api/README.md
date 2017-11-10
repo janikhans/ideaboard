@@ -4,14 +4,9 @@ Backend API built using Rails 5.1.3
 
 ### Setup
 
-Make sure Rails is installed
-
-```
-gem install rails -v 5.1.3
-```
-
 Navigate to `/ideaboard-api` and run:
 
+    bundle install
     rails db:migrate
     rails db:seed
     rails s -p 3001
